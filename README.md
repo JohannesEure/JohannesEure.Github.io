@@ -12,3 +12,6 @@
 
 <div class="portfolio-layout">
 <div class="portfolio-copy" markdown="1">
+
+<h2 id="about"><u>About me?</u></h2>
+Hello, my name is Johannes, it doesn't translate very well to english so you can call me "John", or "Johan". I am an aspiring Game Developer that studies at YRGO in Gothenburg to become a real GameDeveloper. I live in a small village called Öxabäck,about an hour from Gothenburg. My Journey as a Gaame Developer has barely started, but i have already realised that i like dipping my toes in almost all aspects of it, Especially VFX, Animation and building big scalable systems
