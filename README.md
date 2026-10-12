@@ -1,4 +1,3 @@
-# Johannes
 <nav class="page-tabs" aria-label="Page sections">
 	<a href="#about">About</a>
 	<a href="#projects">Projects</a>
