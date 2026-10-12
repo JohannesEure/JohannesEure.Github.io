@@ -1,103 +1,20 @@
+---
+---
 
-/* Main page */
+@import "{{ site.theme }}";
+/* Your custom styles go below */
 body {
     background: #15151b;
     color: #eeeeF5;
-    font-family: Arial, sans-serif;
-    line-height: 1.7;
-    margin: 0;
-    padding: 0 24px;
 }
 
-/* Main navigation */
-.page-tabs,
-.project-tabs {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin: 24px auto;
+.page-tabs a,
+.project-tabs a {
+    color: #c6bcff;
 }
 
-    .page-tabs a,
-    .project-tabs a {
-        color: #c6bcff;
-        text-decoration: none;
-        padding: 10px 16px;
-        border: 1px solid #393744;
-        border-radius: 8px;
-        background: #202029;
-        transition: background 0.2s, color 0.2s;
+    .page-tabs a:hover,
+    .project-tabs a:hover {
+        color: #ffffff;
+        background: #7665df;
     }
-
-        .page-tabs a:hover,
-        .project-tabs a:hover {
-            background: #7665df;
-            color: white;
-        }
-
-/* Project navigation */
-.project-tabs {
-    gap: 8px;
-}
-
-    .project-tabs a {
-        font-size: 0.9rem;
-    }
-
-/* Main content */
-.portfolio-layout {
-    max-width: 1000px;
-    margin: 48px auto;
-}
-
-.portfolio-copy {
-    max-width: 850px;
-    margin: 0 auto;
-}
-
-    .portfolio-copy h2 {
-        color: #c6bcff;
-        margin-top: 48px;
-        margin-bottom: 16px;
-    }
-
-    .portfolio-copy p {
-        color: #c7c7d2;
-    }
-
-/* Section links */
-html {
-    scroll-behavior: smooth;
-}
-
-#about,
-#projects,
-#contact,
-#Lord\ Red\'s\ Auction\ House,
-#bullet-row,
-#I\ Hate\ Spiders {
-    scroll-margin-top: 24px;
-}
-
-/* Small screens */
-@media (max-width: 600px) {
-    body {
-        padding: 0 14px;
-    }
-
-    .page-tabs,
-    .project-tabs {
-        gap: 8px;
-    }
-
-        .page-tabs a,
-        .project-tabs a {
-            padding: 8px 10px;
-            font-size: 0.85rem;
-        }
-
-    .portfolio-layout {
-        margin-top: 28px;
-    }
-}
