@@ -1,6 +1,6 @@
-/* =====================================
-   DESIGN TOKENS
-===================================== */
+/*
+  DESIGN TOKENS
+*/
 
 :root {
     color-scheme: dark;
@@ -151,25 +151,57 @@ a {
         color: var(--accent);
     }
 
-.hero-description {
-    max-width: 650px;
-    margin: 26px 0 30px;
-    color: var(--muted);
-    font-size: 1.12rem;
-    line-height: 1.85;
+
+.hero-intro {
+    max-width: 680px;
+    margin-top: 1.5rem;
 }
 
-.hero-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+    .hero-intro p {
+        font-size: 1.05rem;
+        line-height: 1.8;
+        margin: 0;
+        color: var(--text);
+    }
+
+/* Design philosophy */
+.hero-philosophy {
+    max-width: 680px;
+    margin-top: 2rem;
+    padding-left: 1.25rem;
+    border-left: 3px solid var(--accent);
+}
+
+.philosophy-label {
+    display: block;
+    color: var(--accent);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.6rem;
+}
+
+.hero-philosophy p {
+    font-size: 1.2rem;
+    line-height: 1.65;
+    font-weight: 500;
+    margin: 0;
+    color: var(--text);
+}
+
+/* Invitation */
+.hero-invitation {
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text);
+    opacity: 0.8;
 }
 
 
 /* =====================================
    BUTTONS
 ===================================== */
-
 .button {
     display: inline-flex;
     min-height: 46px;
@@ -469,4 +501,19 @@ a {
         scroll-behavior: auto;
         transition: none;
     }
+}
+
+
+
+
+/* TEMPORARY HERO STYLE TEST */
+.hero-philosophy {
+    border-left: 5px solid magenta !important;
+    background: #302d42 !important;
+    padding: 20px !important;
+}
+
+.philosophy-label {
+    color: magenta !important;
+    font-size: 1rem !important;
 }
