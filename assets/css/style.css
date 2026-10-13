@@ -123,79 +123,51 @@ a {
    HERO / INTRODUCTION
 ===================================== */
 
-.hero {
-    padding-top: 115px;
-    padding-bottom: 105px;
-}
-
-.eyebrow {
-    margin: 0 0 18px;
-    color: var(--accent);
-    font-size: 0.78rem;
-    font-weight: 750;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-}
-
-.hero h1 {
-    max-width: 900px;
-    margin: 0;
-    font-size: clamp(2.8rem, 7vw, 5.2rem);
-    font-weight: 800;
-    line-height: 1.08;
-    letter-spacing: -0.055em;
-}
-
-    .hero h1 span {
-        display: block;
-        color: var(--accent);
-    }
-
-
+/* Hero introduction */
 .hero-intro {
     max-width: 680px;
     margin-top: 1.5rem;
 }
 
     .hero-intro p {
+        margin: 0;
+        color: var(--muted);
         font-size: 1.05rem;
         line-height: 1.8;
-        margin: 0;
-        color: var(--text);
     }
 
 /* Design philosophy */
 .hero-philosophy {
     max-width: 680px;
-    margin-top: 2rem;
-    padding-left: 1.25rem;
+    margin-top: 2.5rem;
+    padding: 0.25rem 0 0.25rem 1.25rem;
     border-left: 3px solid var(--accent);
 }
 
 .philosophy-label {
     display: block;
+    margin-bottom: 0.65rem;
     color: var(--accent);
     font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    margin-bottom: 0.6rem;
+    font-weight: 750;
+    letter-spacing: 0.13em;
 }
 
 .hero-philosophy p {
-    font-size: 1.2rem;
-    line-height: 1.65;
-    font-weight: 500;
     margin: 0;
     color: var(--text);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.65;
 }
 
 /* Invitation */
 .hero-invitation {
-    margin-top: 1.5rem;
+    max-width: 680px;
+    margin: 1.75rem 0 0;
+    color: var(--muted);
     font-size: 0.95rem;
-    line-height: 1.6;
-    color: var(--text);
-    opacity: 0.8;
+    line-height: 1.7;
 }
 
 
