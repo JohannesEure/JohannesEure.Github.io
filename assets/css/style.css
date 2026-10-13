@@ -123,7 +123,20 @@ a {
    HERO / INTRODUCTION
 ===================================== */
 
-/* Hero introduction */
+.hero {
+    padding-top: 115px;
+    padding-bottom: 105px;
+}
+
+.eyebrow {
+    margin: 0 0 18px;
+    color: var(--accent);
+    font-size: 0.78rem;
+    font-weight: 750;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
 .hero h1 {
     max-width: 900px;
     margin: 0;
@@ -138,6 +151,7 @@ a {
         color: var(--accent);
     }
 
+/* Introduction */
 .hero-intro {
     max-width: 680px;
     margin-top: 1.5rem;
