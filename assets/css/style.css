@@ -343,7 +343,7 @@ a {
 }
 
 .project-content > p:not(.project-number) {
-    margin: 0;
+    margin: 0 0;
     color: var(--muted);
     font-size: 0.94rem;
 }
