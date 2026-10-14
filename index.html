@@ -220,10 +220,22 @@
 						<p class="project-number">PROJECT 04</p>
 						<h3>Castle Baan</h3>
 						<p>
-							Write text here//////////////////
+							A chess-inspired Sokoban puzzle game where you push pieces through levels. 
+							Each piece follows its own movement rules, and to complete a level, you must transform a Pawn into a Queen and reach the throne.
 						</p>
-
-						<div class="tags">
+						<p>
+							I worked on the core gameplay systems in C++ using SDL3, including chess-inspired movement, pushing mechanics, level loading, and undo/redo. I also implemented the Crown mechanic, which transforms a Pawn into a Queen. 
+							Beyond gameplay programming, I created pixel art for the game, including a layered parallax background for the main menu and a victory animation where the Queen piece transforms into a real queen.
+						</p>
+						<p>
+							One of the more challenging parts was getting the Pawn-to-Queen transformation and undo system to work together.
+							Undo had to restore the correct game state, including the piece's identity and behaviour after it had transformed.
+						</p>
+						<p>
+							Building a game from scratch meant implementing many systems that are usually handled by a game engine. Although it sometimes felt like reinventing the wheel, it gave me a better understanding of how these systems work on a deeper level and how they interact.
+							It also made me appreciate the freedom that comes with building your own tools: you can shape the underlying systems around the specific needs of your game, rather than being limited to what an engine provides out of the box.
+						</p>
+							<div class="tags">
 							<span class="tag">Gameplay</span>
 							<span class="tag">Team Project</span>
 						</div>
@@ -253,11 +265,11 @@
 					</div>
 				</article>
 
-				<article class="project-card" id="unreal-character-demo">
+				<article class="project-card" id="Character Creation & Animation Pipeline">
 					<div class="project-image">
 						<img
                             src="/assets/gifs/character.gif"
-                            alt="Gameplay from the Unreal character demo"
+                            alt="Character Creation & Animation Pipeline"
                             loading="lazy"
                         >
 						</div>
@@ -266,7 +278,17 @@
 						<p class="project-number">PROJECT 06</p>
 						<h3>Unreal Character Demo</h3>
 						<p>
-							Write text here//////////////////
+							So this is an interesting one, it is not a game, it is barely a demo. I am a programmer, and i wanted to make a bossfight, with cool animations.
+							For some reason i thought it would be a good idea to make my own character, with my own animations.
+							With no previous experience in Blender or 3D modelling, I spent the project learning the character creation pipeline, from modelling and sculpting to rigging, weight painting, and animation.
+						</p>
+						<p>
+							I eventually brought the character into Unreal Engine with my custom animations working.
+							I didn't have time to finish texturing, so I experimented with materials, ambient occlusion, and vertex painting to give the character some visual definition.
+						</p>
+						<p>
+							Although the project didn't reach the boss fight I originally envisioned, it gave me a much better understanding of what's involved in creating a game-ready character. I learned how modelling, vertex groups, rigging, and weight painting fit together, and what artists need to consider to make a character work in-engine. 
+							As a gameplay programmer, I think understanding these processes helps me collaborate with artists just a bit better.
 						</p>
 
 						<div class="tags">
