@@ -198,6 +198,39 @@ a {
     line-height: 1.7;
 }
 
+.hero-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.hero-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.hero-photo {
+    width: 220px;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 2px solid var(--accent);
+    flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+    .hero-layout {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .hero-photo {
+        width: 150px;
+    }
+}
+
 
 /* =====================================
    BUTTONS
