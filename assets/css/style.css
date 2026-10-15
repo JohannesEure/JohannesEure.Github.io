@@ -202,7 +202,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .hero-content {
@@ -211,7 +211,7 @@ a {
 }
 
 .hero-photo {
-    width: 260px;
+    width: 240px;
     aspect-ratio: 4 / 5;
     object-fit: cover;
     border-radius: 16px;
