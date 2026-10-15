@@ -212,7 +212,8 @@ a {
 
 .hero-photo {
     width: 420px;
-    aspect-ratio: 4 / 5;
+    height: 525px;
+    /*aspect-ratio: 4 / 5;*/
     object-fit: cover;
     border-radius: 16px;
     border: 4px solid var(--accent);
