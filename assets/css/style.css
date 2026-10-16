@@ -192,10 +192,14 @@ a {
 /* Invitation */
 .hero-invitation {
     max-width: 620px;
-    margin: 2rem 0 1.5rem;
+    margin: 2rem 0 0;
     color: var(--muted);
     font-size: 0.95rem;
     line-height: 1.65;
+}
+
+.hero-bottom {
+    margin-top: 3rem;
 }
 
 .hero-layout {
