@@ -122,6 +122,10 @@ a {
 /* =====================================
    HERO / INTRODUCTION
 ===================================== */
+.hero.container {
+    width: min(100% - 3rem, 1350px);
+    margin-inline: auto;
+}
 
 .hero {
     padding-top: 85px;
