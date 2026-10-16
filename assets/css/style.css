@@ -140,7 +140,7 @@ a {
 .hero h1 {
     max-width: 900px;
     margin: 0;
-    font-size: clamp(2.5rem, 6vw, 4.8rem);
+    font-size: clamp(2.5rem, 7vw, 5.2rem);
     font-weight: 800;
     line-height: 1.08;
     letter-spacing: -0.055em;
@@ -167,7 +167,7 @@ a {
 /* Design philosophy */
 .hero-philosophy {
     max-width: 620px;
-    margin-top: 1.75rem;
+    margin-top: 2.5rem;
     padding: 0.25rem 0 0.25rem 1.1rem;
     border-left: 2px solid var(--accent);
 }
@@ -192,7 +192,7 @@ a {
 /* Invitation */
 .hero-invitation {
     max-width: 620px;
-    margin: 1.25rem 0 0;
+    margin: 2rem 0 1.5rem;
     color: var(--muted);
     font-size: 0.95rem;
     line-height: 1.65;
@@ -235,6 +235,13 @@ a {
 /* =====================================
    BUTTONS
 ===================================== */
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
 .button {
     display: inline-flex;
     min-height: 46px;
